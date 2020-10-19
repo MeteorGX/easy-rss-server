@@ -1,0 +1,8 @@
+{
+  "url": "http://blog.sina.com.cn/rss/1286528122.xml",
+  "charset": "utf8",
+  "save_type": "mysql",
+  "table_name": "rss_msra",
+  "driver_url": "mysql://username:password@localhost:3306/database",
+  "append_date": "%Y_%m_%d"
+}

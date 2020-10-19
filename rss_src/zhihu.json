@@ -1,0 +1,11 @@
+{
+  "url": "https://www.zhihu.com/rss",
+  "charset": "utf8",
+  "author_tag": "dc:creator",
+
+  "save_type": "mysql",
+  "table_name": "rss_zhihu",
+  "driver_url": "mysql://username:password@localhost:3306/database",
+
+  "append_date": "%Y_%m_%d"
+}

@@ -1,0 +1,12 @@
+[Unit]
+Description=easy-rss daemon
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+ExecStart=/usr/bin/easy-rss-cli /etc/easy-rss/%i.json
+
+[Install]
+WantedBy=multi-user.target

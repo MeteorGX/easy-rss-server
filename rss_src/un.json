@@ -1,0 +1,8 @@
+{
+  "url": "https://news.un.org/feed/subscribe/zh/news/all/rss.xml",
+  "charset": "utf8",
+  "save_type": "mysql",
+  "table_name": "rss_un",
+  "driver_url": "mysql://username:password@localhost:3306/database",
+  "append_date": "%Y_%m_%d"
+}

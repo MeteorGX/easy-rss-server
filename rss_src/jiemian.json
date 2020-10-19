@@ -1,0 +1,8 @@
+{
+  "url": "https://a.jiemian.com/index.php?m=article&a=rss",
+  "charset": "utf8",
+  "save_type": "mysql",
+  "table_name": "rss_jiemian",
+  "driver_url": "mysql://username:password@localhost:3306/database",
+  "append_date": "%Y_%m_%d"
+}

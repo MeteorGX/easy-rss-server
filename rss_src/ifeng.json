@@ -1,0 +1,7 @@
+{
+  "url": "https://news.ifeng.com/feed.shtml",
+  "charset": "utf8",
+  "save_type": "mysql",
+  "table_name": "rss_ifeng",
+  "driver_url": "mysql://root:root@localhost:3306/rss"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.solidot.org/index.rss",
+  "charset": "utf8",
+  "save_type": "mysql",
+  "table_name": "rss_solidot",
+  "driver_url": "mysql://username:password@localhost:3306/database",
+  "append_date": "%Y_%m_%d"
+}

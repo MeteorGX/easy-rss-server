@@ -1,0 +1,17 @@
+[Unit]
+Description=daily start easy-rss
+
+[Timer]
+
+# Every three minutes.
+OnBootSec=3min
+OnUnitActiveSec=3min
+
+# Work continuously to avoid quitting the task.
+Persistent=true
+
+# The service performed.
+Unit=easy-rss-cli@%i.service
+
+[Install]
+WantedBy=timers.target
