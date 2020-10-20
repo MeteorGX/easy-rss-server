@@ -1,0 +1,7 @@
+{
+  "url": "https://linux.cn/rss.xml",
+  "charset": "utf8",
+  "save_type": "mysql",
+  "table_name": "rss_linux_cn",
+  "driver_url": "mysql://root:root@localhost:3306/rss"
+}

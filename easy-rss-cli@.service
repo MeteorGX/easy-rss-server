@@ -4,8 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-Restart=always
-RestartSec=5
+Restart=no
 ExecStart=/usr/bin/easy-rss-cli /etc/easy-rss/%i.json
 
 [Install]
